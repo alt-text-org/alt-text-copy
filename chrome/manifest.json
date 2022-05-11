@@ -1,0 +1,43 @@
+{
+  "name": "__MSG_extName__",
+  "description": "__MSG_extDescription__",
+  "version": "1.0",
+  "manifest_version": 3,
+  "default_locale": "en_US",
+  "background": {
+    "service_worker": "menu.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content_scripts/getClickTarget.js"]
+    }
+  ],
+  "permissions": [
+    "clipboardWrite",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "http://*/*", "https://*/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [ "images/*"],
+      "matches": [ "http://*/*", "https://*/*" ]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "images/AltTextCopy16.png",
+      "32": "images/AltTextCopy32.png",
+      "48": "images/AltTextCopy48.png",
+      "128": "images/AltTextCopy128.png"
+    }
+  },
+  "icons": {
+    "16": "images/AltTextCopy16.png",
+    "32": "images/AltTextCopy32.png",
+    "48": "images/AltTextCopy48.png",
+    "128": "images/AltTextCopy128.png"
+  }
+}

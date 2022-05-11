@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Alt Text Copy",
+    "description": ""
+  },
+  "extDescription": {
+    "message": "Copy Image Alt Text By Right Clicking",
+    "description": ""
+  },
+  "menuItemText": {
+    "message": "Copy Alt Text",
+    "description": "Text of item in right-click menu"
+  }
+}

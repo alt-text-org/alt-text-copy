@@ -28,7 +28,7 @@ document.addEventListener("contextmenu", function(event){
     return true;
 }, {});
 
-chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     if (request.type === "getClickedEl") {
         sendResponse({alt: clickedEl.alt});
     } else if (request.type === "copyAlt") {
@@ -36,4 +36,5 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
             .catch(e => console.log(`Error copying text to clipboard: ${e}`));
         clickedEl = null;
     }
+    return true;
 });

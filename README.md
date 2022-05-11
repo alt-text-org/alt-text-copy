@@ -14,6 +14,6 @@ Manual Installation
 Thanks To
 ---------
 
-- @lunasorcery for the idea
-- @eritbh for help hunting down an error
+- [@lunasorcery](https://github.com/lunasorcery) for the idea
+- [@eritbh](https://github.com/eritbh) for help hunting down an error
 

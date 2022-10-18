@@ -47,7 +47,6 @@ function noAltFound() {
 function copyAlt(tab) {
     chrome.tabs.sendMessage(tab.id, {type: "copyAlt"}, {},
         resp => {
-            console.log(`Got resp in copy: ${JSON.stringify(resp)}`)
             return true;
         })
 }

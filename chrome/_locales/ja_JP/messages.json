@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "代替テキストのコピー",
+    "description": ""
+  },
+  "extDescription": {
+    "message": "右クリックで画像の代替テキストをコピーして下さい",
+    "description": ""
+  },
+  "menuItemText": {
+    "message": "代替テキストのコピー",
+    "description": "右クリックメニューのアイテムのテキスト"
+  }
+}

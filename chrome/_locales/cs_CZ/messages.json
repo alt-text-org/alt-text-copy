@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Zkopírovaní alternativního textu",
+    "description": ""
+  },
+  "extDescription": {
+    "message": "Zkopírujte alternativní text obrázku klepnutím pravým tlačítkem",
+    "description": ""
+  },
+  "menuItemText": {
+    "message": "Zkopírovat alternativní text",
+    "description": "Text položky v kontextovém menu"
+  }
+}

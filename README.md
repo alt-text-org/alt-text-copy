@@ -9,7 +9,7 @@ Manual Installation
 1. In Chrome, click the Extensions button in the upper right (it looks like a puzzle piece). 
 2. Select "Manage Extensions".
 3. Click "Load Unpacked" in the upper left.
-4. Select the root directory of this repo.
+4. Select the directory corresponding to the browser you are using.
 
 Thanks To
 ---------

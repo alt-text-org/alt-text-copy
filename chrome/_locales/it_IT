@@ -9,6 +9,6 @@
   },
   "menuItemText": {
     "message": "Copia testo alternativo",
-    "description": "Text of item in right-click menu"
+    "description": "Testo dell'elemento nel menù contestuale"
   }
 }

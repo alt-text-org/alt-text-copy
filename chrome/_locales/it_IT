@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Copia testo alternativo",
+    "description": ""
+  },
+  "extDescription": {
+    "message": "Copia il testo alternativo dell'immagine facendo click con il tasto destro",
+    "description": ""
+  },
+  "menuItemText": {
+    "message": "Copia testo alternativo",
+    "description": "Text of item in right-click menu"
+  }
+}

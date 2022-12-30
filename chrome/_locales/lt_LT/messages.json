@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Alternatyvaus teksto kopija",
+    "description": ""
+  },
+  "extDescription": {
+    "message": "Kopijuoti alternatyvų tekstą dešinio mygtuko paspaudimu",
+    "description": ""
+  },
+  "menuItemText": {
+    "message": "Kopijuoti alternatyvų tekstą",
+    "description": "Elemento tekstas kontekstiniam meniu"
+  }
+}

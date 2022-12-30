@@ -1,0 +1,14 @@
+{
+    "extName": {
+        "message": "Kopieer alt-tekst",
+        "description": ""
+    },
+    "extDescription": {
+        "message": "Kopieer alt-tekst door met rechtermuisknop te klikken",
+        "description": ""
+    },
+    "menuItemText": {
+        "message": "Alt-tekst kopiëren",
+        "description": "Tekst in het context menu"
+    }
+}

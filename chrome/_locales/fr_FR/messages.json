@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Copier le texte alternatif",
+    "description": ""
+  },
+  "extDescription": {
+    "message": "Copier le texte alernatif des images avec un clic droit",
+    "description": ""
+  },
+  "menuItemText": {
+    "message": "Copier le texte alernatif",
+    "description": "Texte affiché dans le menu déroulant"
+  }
+}

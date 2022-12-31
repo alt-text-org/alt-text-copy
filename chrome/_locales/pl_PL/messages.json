@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Kopiowanie tekstu alternatywnego",
+    "description": ""
+  },
+  "extDescription": {
+    "message": "Skopiuj tekst alternatywny obrazka prawym klawiszem myszy",
+    "description": ""
+  },
+  "menuItemText": {
+    "message": "Skopiuj tekst alternatywny",
+    "description": "Treść pozycji w menu kontekstowym"
+  }
+}

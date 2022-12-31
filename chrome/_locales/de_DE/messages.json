@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Kopieren vom Alternativtext",
+    "description": ""
+  },
+  "extDescription": {
+    "message": "Den Alternativtext eines Bildes im Rechtsklickmenü kopieren",
+    "description": ""
+  },
+  "menuItemText": {
+    "message": "Alternativtext kopieren",
+    "description": "Text der Rechtsklickmenüschaltfläche"
+  }
+}

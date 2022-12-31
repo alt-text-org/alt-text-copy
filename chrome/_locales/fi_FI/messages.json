@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "ALT-tekstin kopioija",
+    "description": ""
+  },
+  "extDescription": {
+    "message": "Kopioi kuvan ALT-teksti painamalla hiiren oikeaa painiketta",
+    "description": ""
+  },
+  "menuItemText": {
+    "message": "Kopioi ALT-teksti",
+    "description": ""
+  }
+}

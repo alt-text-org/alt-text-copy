@@ -1,0 +1,14 @@
+{
+  "extName": {
+    "message": "Alt Text Kopia",
+    "description": ""
+  },
+  "extDescription": {
+    "message": "Kopiera bildens alt text genom att högerklicka",
+    "description": ""
+  },
+  "menuItemText": {
+    "message": "Kopiera alt text",
+    "description": "Objektets text i högerklicksmeny"
+  }
+}

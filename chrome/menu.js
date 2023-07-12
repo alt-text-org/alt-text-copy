@@ -26,7 +26,7 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
             if (alt) {
                 copyAlt(tab);
             } else {
-                noAltFound();
+                noAltFound(tab);
             }
         });
     }
@@ -35,13 +35,16 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
 
 function findAlt(tab, callback) {
     chrome.tabs.sendMessage(tab.id, {type: "getClickedEl"}, {}, function (response) {
-        callback(response.alt);
+        callback(response?.alt);
         return true;
     })
 }
 
-function noAltFound() {
-    alert("Image has no alt text");
+function noAltFound(tab) {
+    chrome.tabs.sendMessage(tab.id, {type: "alertNoAlt"}, {},
+        resp => {
+            return true;
+        })
 }
 
 function copyAlt(tab) {

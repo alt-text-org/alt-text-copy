@@ -23,6 +23,10 @@ function copyToClipboard(textToCopy) {
     }
 }
 
+function noAltFound() {
+    alert("Image has no alt text");
+}
+
 document.addEventListener("contextmenu", function(event){
     clickedEl = event.target;
     return true;
@@ -35,6 +39,8 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         copyToClipboard(clickedEl.alt)
             .catch(e => console.log(`Error copying text to clipboard: ${e}`));
         clickedEl = null;
+    } else if (request.type === "alertNoAlt") {
+        noAltFound();
     }
     return true;
 });
